@@ -1,4 +1,4 @@
-## DevContainer D2 demo
+## D2 DevContainer Playground
 
 ![demo](demo.png)
 
