@@ -1,0 +1,20 @@
+{
+  "dockerComposeFile": "compose.yml",
+  "workspaceFolder": "/app",
+  "service": "alpine",
+  "containerUser": "vscode",
+  "features": {
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-d2": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-docker": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-user": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-starship": {},
+    "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Terrastruct.d2"
+      ]
+    }
+  }
+}

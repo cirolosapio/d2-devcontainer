@@ -1,0 +1,7 @@
+services:
+  alpine:
+    image: alpine
+    command: top
+    volumes:
+      - ..:/app:cached
+      - ~/.zsh_history:/home/vscode/.zsh_history:cached
